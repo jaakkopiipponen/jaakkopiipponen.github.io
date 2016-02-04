@@ -1,0 +1,189 @@
+html {
+	position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif !important;
+	padding-top: 90px;
+  background-color: #3097d1;
+}
+
+/* Landing */
+
+.landingPhoto {
+  background-image: url("assets/landing-spreadsheet.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -90px;
+  overflow-x: hidden;
+}
+
+.landingTextBackground {
+  margin: 200px 0px 200px 0px;
+  background-color: rgba(0,0,0,0.4);
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px #333;
+}
+
+
+.getStarted {
+  text-align: center;
+}
+
+.getStartedBtn {
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 50px;
+  padding: 15px 30px 15px 30px;
+  color: #fff;
+  background-color: #00a2d3;
+  border-radius: 4px;
+}
+
+.getStartedBtn:hover {
+  background-color: #777777;
+  border-color: #777777;
+  color: #fff;
+}
+
+
+.testimonialContainer {
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+  border-bottom: 1px solid #d7eed7;
+}
+
+.testimonialContainer h3 {
+  font-size: 26px;
+}
+
+.testimonialContainer p {
+  font-size: 18px;
+}
+
+.logoRow{
+  padding: 50px 0px 50px 0px;
+}
+
+.logoItem{
+  margin-left: 25px;
+}
+
+#how-it-works{
+  height: 300px;
+  color: #fff;
+  background-color: #5cb85c;
+}
+
+#how-it-works h3{
+  text-align: center;
+}
+
+.howItWorksRow{
+  padding-top: 50px;
+}
+
+.howItWorksRow h3{
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+.howItWorks p {
+  margin-top: 20px;
+}
+
+/* Pricing */
+
+#pricing h2{
+  padding: 25px;
+  font-size: 42px;
+  text-align: center;
+}
+
+.pricingBox {
+  border: 1px solid #ddd;
+}
+
+.pricingBox h3{
+  text-transform: uppercase;
+}
+
+.pricingHeader{
+  text-align: center;
+  padding: 10px;
+}
+
+.pricingContent {
+  padding: 0px 10px 0px 10px;
+}
+
+.pricingFrom{
+  font-size: 16px;
+  font-weight: lighter;
+  color: #777777;
+}
+
+.pricingDollar{
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.pricingButton {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 12px 25px 12px 25px;
+  color: #fff;
+  background-color: #3097d1;
+  border-radius: 4px;
+}
+
+.pricingButton:hover {
+  background-color: #777777;
+  border-color: #777777;
+  color: #fff;
+}
+
+.landingFooter {
+  color: #fff;
+  background-color: #333;
+  height: 200px;
+  padding-top: 30px;
+}
+
+.landingFooter ul li {
+  list-style: none;
+}
+
+
+
+/* Icons */
+
+.testimonialIcon {
+  font-size: 12px;
+  color: #646464;
+}
+
+.testimonialIcon:hover {
+  color: #333;
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #c4c4c4;
+}
+
+.footer a{
+  color: #777;
+}
+
+

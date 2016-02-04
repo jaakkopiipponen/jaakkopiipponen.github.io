@@ -1,0 +1,157 @@
+html {
+	position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif !important;
+	padding-top: 90px;
+  background-color: #f5f5f5;
+}
+
+/* Landing */
+.navbarTransparent {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #5cb85c;
+}
+
+.navbarTransparent:hover {
+  background-color: rgba(255, 255, 255, 0.8) !important;;
+}
+
+.landingPhoto {
+  background-image: url("../assets/landing-spreadsheet.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -90px;
+  overflow-x: hidden;
+  margin-bottom: -10px;
+}
+
+.landingTextBackground {
+  margin: 200px 0px 200px 0px;
+  background-color: rgba(0,0,0,0.4);
+  padding: 50px;
+  color: #fff;
+  font-style: bolder;
+  text-align: center;
+  text-shadow: 1px 1px #333;
+}
+
+.landingText h1 {
+  font-size: 52px;
+}
+
+.landingText h3 {
+  font-size: 28px;
+}
+
+.getStarted {
+  text-align: center;
+}
+
+.getStartedBtn {
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 50px;
+  padding: 15px 30px 15px 30px;
+  color: #fff;
+  background-color: #3097d1;
+  border-radius: 4px;
+}
+
+.getStartedBtn:hover {
+  background-color: #777777;
+  border-color: #777777;
+  color: #fff;
+}
+
+.testimonialContainer {
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+  border-bottom: 1px solid #d7eed7;
+}
+
+.testimonialContainer h3 {
+  font-size: 26px;
+}
+
+.testimonialContainer p {
+  font-size: 18px;
+}
+
+.logoRow{
+  padding: 50px 0px 50px 0px;
+}
+
+.logoItem{
+  margin-left: 25px;
+}
+
+#how-it-works{
+  color: #fff;
+  background-color: #3097d1;
+  padding: 60px 0px 60px 0px;
+}
+
+#how-it-works h3{
+  text-align: center;
+}
+
+/* Pricing */
+
+#pricing{
+  padding-bottom: 50px;
+}
+
+.pricingHeader{
+  text-align: center;
+  padding: 20px;
+}
+
+.landingFooter {
+  color: #fff;
+  background-color: #333;
+  height: 200px;
+  padding-top: 30px;
+}
+
+.landingFooter ul li {
+  list-style: none;
+}
+
+/* Icons */
+.testimonialIcon {
+  font-size: 12px;
+  color: #646464;
+}
+
+.testimonialIcon:hover {
+  color: #333;
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #c4c4c4;
+}
+
+.footer a{
+  color: #777;
+}
+
+.whiteLink{
+  color: #fff;
+}
+
+.whiteLink:hover{
+  color: #3097d1;
+  text-decoration: none;
+}
+
