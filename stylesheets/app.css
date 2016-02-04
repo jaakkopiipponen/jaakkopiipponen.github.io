@@ -121,17 +121,6 @@ body {
   list-style: none;
 }
 
-/* Projects */
-#promoter-project{
-   background: url(../assets/promoter-logo.png) no-repeat center center;
-   background-size:contain;
-}
-
-#geekdom-project{
-   background: url(../assets/geekdom-logo.jpg) no-repeat center center;
-   background-size:contain;
-}
-
 /* Icons */
 .testimonialIcon {
   font-size: 12px;
